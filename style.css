@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fundo{
+    background-image: linear-gradient(100deg,blue,black);
+    height: 100vh;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteine{
+    position: absolute;
+    background-color: rgb(207, 17, 3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px;
+}
+#resultado{
+    background-color: white;
+    width: 210px;
+    height: 35px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 3px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(20, 18, 18);
+    color: white;
+}
+.botao:hover{
+    background-color: rgb(0, 0, 0);
+}
+.igual{
+    height: 106px;
+}
+.zero{
+    width: 106px;
+}
